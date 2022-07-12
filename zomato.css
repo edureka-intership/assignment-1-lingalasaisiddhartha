@@ -8,6 +8,31 @@
     width: 100%;
     height: 60px;
     position:relative ;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header .Loginbtn{
+    padding-top: 10px;
+    padding-right:130px;
+}
+.header .Loginbtn1{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.header .Loginbtn input{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    background: transparent;
+    padding: 6px;
+}
+.header .Loginbtn1 p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    
 }
 .header .logo{
     background-color: white;
